@@ -3,7 +3,7 @@ module "account_request_github_01" {
 
   control_tower_parameters = {
     AccountEmail = "ltsimibiloa+github01@yext.com"
-    AccountName  = "account-github-01"
+    AccountName  = "account-github-renamed-01"
     # Syntax for top-level OU
     ManagedOrganizationalUnit = "Sandbox"
     # Syntax for nested OU
