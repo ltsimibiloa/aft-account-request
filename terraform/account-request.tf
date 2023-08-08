@@ -15,7 +15,7 @@ module "account_request_github_01" {
 
   account_tags = {
     "Owner"       = "ltsimibiloa+github01@yext.com"
-    "Division"    = "ENT"
+    "Division"    = "ITOPS"
     "ABC:Environment" = "test"
     "CostCenter"  = "LabCenter"
     "Vended"      = "true"
