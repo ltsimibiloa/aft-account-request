@@ -5,7 +5,7 @@ module "account_request_github_01" {
     AccountEmail = "ltsimibiloa+github01@yext.com"
     AccountName  = "account-github-01-renamed-attempt01"
     # Syntax for top-level OU
-    ManagedOrganizationalUnit = "Sandbox"
+    ManagedOrganizationalUnit = "ltsimibiloa-test-AFT"
     # Syntax for nested OU
     # ManagedOrganizationalUnit = "Sandbox (ou-xfe5-a8hb8ml8)"
     SSOUserEmail     = "ltsimibiloa+github01@yext.com"
