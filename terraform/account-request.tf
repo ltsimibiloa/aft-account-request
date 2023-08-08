@@ -14,14 +14,14 @@ module "account_request_github_01" {
   }
 
   account_tags = {
-    "ABC:Owner"       = "ltsimibiloa+github01@yext.com"
-    "ABC:Division"    = "ENT"
-    "ABC:Environment" = "Dev"
-    "ABC:CostCenter"  = "123456"
-    "ABC:Vended"      = "true"
-    "ABC:DivCode"     = "102"
-    "ABC:BUCode"      = "ABC003"
-    "ABC:Project"     = "123456"
+    "Owner"       = "ltsimibiloa+github01@yext.com"
+    "Division"    = "ENT"
+    "ABC:Environment" = "test"
+    "CostCenter"  = "LabCenter"
+    "Vended"      = "true"
+    "DivCode"     = "102"
+    "BUCode"      = "ABC003"
+    "Project"     = "githubAFT"
   }
 
   change_management_parameters = {
