@@ -14,6 +14,14 @@ module "account_request_github_01" {
   }
 
   account_tags = {
+    Project     = "githubAFT"
+    Owner       = "ltsimibiloa+github01@yext.com"
+    CostCenter  = "LabCenter"
+    Vended      = "true"
+    Environment = "test"
+    Division    = "ITOPS"
+    BUCode      = "ABC003"
+    DivCode     = 102
   }
 
   change_management_parameters = {
