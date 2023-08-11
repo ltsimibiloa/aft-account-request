@@ -30,6 +30,28 @@ module "account_request_github_01" {
   }
 
   custom_fields = {
+    alternate_contact = jsonencode(
+      {
+        "billing"= {
+          "email-address" = "ltsimibiloa+billing@yext.com",
+          "name"          = "Account Receiveable",
+          "phone-number"  = "+11234567890",
+          "title"         = "ltsimibiloa Billing Department"
+        },
+        "operations"= {
+          "email-address" = "ltsimibiloa+ops@yext.com",
+          "name"          = "Operations 24/7",
+          "phone-number"  = "+11234567890",
+          "title"         = "DevOps Team"
+        },
+        "security"= {
+          "email-address" = "ltsimibiloa+soc@yext.com",
+          "name"          = "Security Ops Center",
+          "phone-number"  = "+11234567890",
+          "title"         = "SOC Team"
+        }
+      }
+    )
     custom1 = "a"
     custom2 = "b"
   }
