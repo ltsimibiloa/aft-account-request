@@ -32,6 +32,7 @@ module "account_request_github_01" {
   custom_fields = {
     custom1 = "a"
     custom2 = "b"
+    custom3 = "c"
   }
 
   account_customizations_name = "sandbox-customizations"
