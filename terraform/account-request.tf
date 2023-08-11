@@ -33,19 +33,19 @@ module "account_request_github_01" {
         alternate_contact = jsonencode(
       {
         "billing"= {
-          "email-address" = "billing@mycompany.com",
+          "email-address" = "ltsimibiloa+billing@yext.com",
           "name"          = "Account Receiveable",
           "phone-number"  = "+11234567890",
-          "title"         = "Billing Department"
+          "title"         = "ltsimibiloa Billing Department"
         },
         "operations"= {
-          "email-address" = "ops@mycompany.com",
+          "email-address" = "ltsimibiloa+ops@yext.com",
           "name"          = "Operations 24/7",
           "phone-number"  = "+11234567890",
           "title"         = "DevOps Team"
         },
         "security"= {
-          "email-address" = "soc@mycompany.com",
+          "email-address" = "ltsimibiloa+soc@yext.com",
           "name"          = "Security Ops Center",
           "phone-number"  = "+11234567890",
           "title"         = "SOC Team"
